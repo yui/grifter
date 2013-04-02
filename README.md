@@ -3,6 +3,8 @@ Grifter - The Gallery Module Stealer
 
 This is HIGHLY experimental and probably shouldn't be installed, just saying.
 
+*This package is not published to NPM yet, since it's highly specific and still under development*
+
 Install
 -------
 
