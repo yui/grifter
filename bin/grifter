@@ -1,0 +1,12 @@
+#!/usr/local/bin/node --max-stack-size=100000 --trace_exception
+
+/*
+Copyright (c) 2012, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://yuilibrary.com/license/
+*/
+
+var path = require('path');
+var grifter = require(path.join('../lib'));
+
+grifter.init();
