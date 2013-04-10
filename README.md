@@ -17,10 +17,10 @@ Create a `.grifter.json` file under `$HOME` similar to this:
 
 ```
 {
-    "username": "davglass",
+    "username": "--YUILIBRARY USERNAME .yogi.json--",
     "token": "--TOKEN FROM .yogi.json--",
     "apiHost": "yuilibrary.com",
-    "gh_user": "davglass",
+    "gh_user": "--GITHUB USERNAME .yogi.json--",
     "gh_token": "--TOKEN FROM .yogi.json--",
     "master": "git@github.com:yui/yui3-gallery.git",
     "release": true,
