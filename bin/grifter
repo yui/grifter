@@ -1,4 +1,4 @@
-#!/usr/local/bin/node --max-stack-size=100000 --trace_exception
+#!/usr/bin/env node
 
 /*
 Copyright (c) 2012, Yahoo! Inc. All rights reserved.
