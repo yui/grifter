@@ -19,7 +19,6 @@
         "graceful-fs": "~1.2.0",
         "osenv": "*",
         "tar": "~0.1.13",
-        "shifter": "*",
         "yogi": "*",
         "timethat": "*",
         "archiver": "~0.1.0",
