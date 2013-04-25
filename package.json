@@ -21,7 +21,7 @@
         "tar": "~0.1.13",
         "yogi": "*",
         "timethat": "*",
-        "archiver": "~0.1.0",
+        "archiver": "~0.4.3",
         "walkdir": "~0.0.5",
         "cssproc": "~0.0.1"
     },
