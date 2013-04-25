@@ -17,25 +17,18 @@ Create a `.grifter.json` file under `$HOME` similar to this:
 
 ```
 {
-    "username": "--YUILIBRARY USERNAME .yogi.json--",
-    "token": "--TOKEN FROM .yogi.json--",
-    "apiHost": "yuilibrary.com",
-    "gh_user": "--GITHUB USERNAME .yogi.json--",
-    "gh_token": "--TOKEN FROM .yogi.json--",
-    "master": "git@github.com:yui/yui3-gallery.git",
-    "release": true,
-    "save": true,
-    "post": false,
-    "cssproc": "http://yui.yahooapis.com/{buildtag}/"
+    "master": "git@github.com:yui/yui3-gallery.git"
 }
 ```
 
 Usage
 -----
 
+You must have authenticatd with `yogi` before doing this. (`yogi login` and `yogi gh`)
+
 ```
-mkdir gallery-build
-cd gallery-build
+mkdir ~/tmp/gallery-build
+cd ~/tmp/gallery-build
 grifter
 ```
 
