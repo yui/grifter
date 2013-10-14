@@ -21,6 +21,18 @@ Create a `.grifter.json` file under `$HOME` similar to this:
 }
 ```
 
+Authenticate with both the API and Github with `yogi`:
+
+```
+// api auth
+yogi login
+
+// github auth
+yogi gh
+```
+
+Your API tokens will be stored in `.yogi.json`.
+
 Usage
 -----
 
@@ -29,8 +41,16 @@ You must have authenticatd with `yogi` before doing this. (`yogi login` and `yog
 ```
 mkdir ~/tmp/gallery-build
 cd ~/tmp/gallery-build
+
+// test-run for the build
 grifter
+
+// build and post results to api
+grifter --post
 ```
+
+In order to successfully run `grifter --post`, you will need to have both `.grifter.json`
+and `.yogi.json` in your path! You can optionally merge `.yogi.json` into `.grifter.json`.
 
 What it does
 ------------
